@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: qi-wang-wu-er-san
+    runtime: python
+    buildCommand: ""
+    startCommand: python -B web_server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
